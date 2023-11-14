@@ -1,3 +1,11 @@
+CREATE TABLE employee (
+id SERIAL PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+birthday DATE
+mail VARCHAR(100)
+ 
+);
+
 insert into employee (id, name, birthday, mail) values (1, 'Alf', '2001-05-24', 'aamthor0@a8.net');
 insert into employee (id, name, birthday, mail) values (2, 'Dahlia', '1985-07-18', 'dfennelow1@forbes.com');
 insert into employee (id, name, birthday, mail) values (3, 'Hanson', '2003-03-27', 'hbiesty2@latimes.com');
